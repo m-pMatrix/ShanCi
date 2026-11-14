@@ -1,0 +1,31 @@
+# Build output
+build/
+*.o
+*.obj
+*.a
+*.exe
+*.dll
+*.so
+
+# Application runtime data (portable data dir)
+data/vocab.db
+data/vocab.db-shm
+data/vocab.db-wal
+data/vocab.log
+data/config.json
+data/audio/
+data/sync/
+
+# IDE / editor
+.vscode/
+.idea/
+*.user
+*.user.*
+CMakeUserPresets.json
+
+# build helpers
+.buildroot
+
+# OS
+Thumbs.db
+desktop.ini
